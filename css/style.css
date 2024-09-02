@@ -1,0 +1,116 @@
+:root{
+    --bg-body: 
+}
+html {
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+
+body{
+    background-color: rgb(58, 49, 0);
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  /*box-shadow: 0 0 15px;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px; */
+  gap: 40px;
+  
+}
+
+.container-izquierdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.container-izquierdo-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.container-izquierdo-form-campos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container-izquierdo-form-campos input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container-derecho{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+}
+/* --------------------- */
+.alerta {
+    width: 100%;
+}
+
+.alerta-roja{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.alerta-verde{
+    background-color: greenyellow;
+    color: antiquewhite;
+}
+
+.container-citas{
+    background-color: bisque;
+    width: 100%;
+}
+
+.container-citas-paciente{
+    background-color: rgb(85, 85, 59);
+    color: azure;
+    width: 100%;
+}
+
+.button-editar{
+    background-color: aquamarine;
+    color: rgb(34, 32, 29);
+    width: 100px;
+}
+
+.button-eliminar{
+    background-color: brown;
+    color: azure;
+    width: 100px;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 20px;
+}
